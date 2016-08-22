@@ -19,7 +19,7 @@ public class trainSoundScript : MonoBehaviour {
 	void Update () {
         Vector3 nowPosition = car.transform.position;
         float distancePerFrame = Vector3.Distance(nowPosition, lastPosition);
-        Debug.Log(distancePerFrame);
+        //Debug.Log(distancePerFrame);
         float fixPictchFinal = fixPicth + distancePerFrame * 2;
         
 

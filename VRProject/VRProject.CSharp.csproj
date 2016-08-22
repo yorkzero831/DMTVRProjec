@@ -66,6 +66,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\AnimationManager.cs" />
     <Compile Include="Assets\GoogleVR\DemoScenes\ControllerDemo\ControllerDebugInfo.cs" />
     <Compile Include="Assets\GoogleVR\DemoScenes\ControllerDemo\ControllerDemoManager.cs" />
     <Compile Include="Assets\GoogleVR\DemoScenes\HeadsetDemo\FPS.cs" />
@@ -107,6 +108,8 @@
     <Compile Include="Assets\GoogleVR\Scripts\VRDevices\GvrDevice.cs" />
     <Compile Include="Assets\GoogleVR\Scripts\VRDevices\iOSDevice.cs" />
     <Compile Include="Assets\WindSoundScript.cs" />
+    <Compile Include="Assets\gameManager.cs" />
+    <Compile Include="Assets\textScript.cs" />
     <Compile Include="Assets\trainSoundScript.cs" />
   </ItemGroup>
   <ItemGroup>
