@@ -1,0 +1,2 @@
+*.a filter=lfs diff=lfs merge=lfs -text
+VRProject/Temp/TarGZ/GoogleVRForUnity filter=lfs diff=lfs merge=lfs -text
