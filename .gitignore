@@ -3,3 +3,5 @@ metadata/
 Temp/
 VRProject/Assets/Plugins/iOS/libgvrunity.a
 ShaderCache/
+00/
+*.log
