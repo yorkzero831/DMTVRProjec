@@ -1,0 +1,934 @@
+fileFormatVersion: 2
+guid: d0b53f31d88ce7c40a941b55ba939b91
+timeCreated: 1471852598
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: backBar_Bracket01
+    100002: backBar_Bracket02
+    100004: backBar_Pipe
+    100006: backingPanelBot
+    100008: backingPanelTop
+    100010: bumperRivet01
+    100012: bumperRivet02
+    100014: bumperRivet_rear01
+    100016: bumperRivet_rear02
+    100018: //RootNode
+    100020: frontBar_Bracket01
+    100022: frontBar_Bracket02
+    100024: frontBar_grillBox01
+    100026: frontBar_grillBox02
+    100028: frontBar_grillMain
+    100030: frontBar_grillSupport01
+    100032: frontBar_grillSupport02
+    100034: frontBar_Short
+    100036: frontBumper
+    100038: harnessSidebar
+    100040: harnessSidebarSupportMid
+    100042: headlight_01
+    100044: headlight_02
+    100046: midBraceBar
+    100048: mineCar_Base
+    100050: mineCar_Base_GRP
+    100052: mineCar_facePlate
+    100054: mineCar_Magnet_Back_01
+    100056: mineCar_Magnet_Front_01
+    100058: pCylinder2
+    100060: rearBumper
+    100062: restraintBar_01
+    100064: restraintBar_02
+    100066: restraintBar_03
+    100068: restraintBar_04
+    100070: restraintBarBase_01
+    100072: restraintBarBase_02
+    100074: restraintBarBase_03
+    100076: restraintBarBase_04
+    100078: restraintHandle_01
+    100080: restraintHandle_02
+    100082: restraintHandle_03
+    100084: restraintHandle_04
+    100086: restraintMain_01
+    100088: restraintMain_02
+    100090: rivet_01
+    100092: rivet_010
+    100094: rivet_011
+    100096: rivet_012
+    100098: rivet_013
+    100100: rivet_014
+    100102: rivet_015
+    100104: rivet_016
+    100106: rivet_017
+    100108: rivet_018
+    100110: rivet_019
+    100112: rivet_02
+    100114: rivet_020
+    100116: rivet_021
+    100118: rivet_022
+    100120: rivet_023
+    100122: rivet_024
+    100124: rivet_025
+    100126: rivet_026
+    100128: rivet_027
+    100130: rivet_028
+    100132: rivet_029
+    100134: rivet_03
+    100136: rivet_030
+    100138: rivet_031
+    100140: rivet_032
+    100142: rivet_033
+    100144: rivet_034
+    100146: rivet_035
+    100148: rivet_036
+    100150: rivet_037
+    100152: rivet_038
+    100154: rivet_039
+    100156: rivet_04
+    100158: rivet_040
+    100160: rivet_041
+    100162: rivet_042
+    100164: rivet_043
+    100166: rivet_044
+    100168: rivet_045
+    100170: rivet_046
+    100172: rivet_047
+    100174: rivet_048
+    100176: rivet_049
+    100178: rivet_05
+    100180: rivet_050
+    100182: rivet_051
+    100184: rivet_052
+    100186: rivet_053
+    100188: rivet_054
+    100190: rivet_055
+    100192: rivet_056
+    100194: rivet_057
+    100196: rivet_058
+    100198: rivet_059
+    100200: rivet_06
+    100202: rivet_060
+    100204: rivet_061
+    100206: rivet_062
+    100208: rivet_063
+    100210: rivet_064
+    100212: rivet_065
+    100214: rivet_066
+    100216: rivet_067
+    100218: rivet_068
+    100220: rivet_069
+    100222: rivet_07
+    100224: rivet_070
+    100226: rivet_071
+    100228: rivet_072
+    100230: rivet_073
+    100232: rivet_074
+    100234: rivet_075
+    100236: rivet_076
+    100238: rivet_08
+    100240: rivet_09
+    100242: seat_01
+    100244: seat_02
+    100246: seatRearLock_01
+    100248: seatRearLock_02
+    100250: sidebarSupportEnd_01
+    100252: sidebarSupportEnd_02
+    100254: sidebarSupportEndCap_01
+    100256: sidebarSupportEndCap_02
+    100258: wheelAssembly_GRP_FL
+    100260: wheelAssembly_GRP_FL 1
+    100262: wheelAssembly_GRP_FR
+    100264: wheelAssembly_GRP_FR 1
+    100266: wheelAssembly_GRP_FRONT
+    100268: wheelAssembly_GRP_FRONT1
+    100270: wheelAssemblyBase_01
+    100272: wheelAssemblyBase_01 1
+    100274: wheelBig_01
+    100276: wheelBig_01 1
+    100278: wheelBig_01 2
+    100280: wheelBig_01 3
+    100282: wheelBig_02
+    100284: wheelBig_02 1
+    100286: wheelBig_02 2
+    100288: wheelBig_02 3
+    100290: wheelConnector_01
+    100292: wheelConnector_01 1
+    100294: wheelConnector_01 2
+    100296: wheelConnector_01 3
+    100298: wheelConnector_02
+    100300: wheelConnector_02 1
+    100302: wheelConnector_02 2
+    100304: wheelConnector_02 3
+    100306: wheelCover_01
+    100308: wheelCover_01 1
+    100310: wheelCover_01 2
+    100312: wheelCover_01 3
+    100314: wheelSmallBot_01
+    100316: wheelSmallBot_01 1
+    100318: wheelSmallBot_01 2
+    100320: wheelSmallBot_01 3
+    100322: wheelSmallBot_02
+    100324: wheelSmallBot_02 1
+    100326: wheelSmallBot_02 2
+    100328: wheelSmallBot_02 3
+    100330: wheelSmallMid_01
+    100332: wheelSmallMid_01 1
+    100334: wheelSmallMid_01 2
+    100336: wheelSmallMid_01 3
+    100338: wheelSmallMid_02
+    100340: wheelSmallMid_02 1
+    100342: wheelSmallMid_02 2
+    100344: wheelSmallMid_02 3
+    100346: wheelSupportBar_01
+    100348: wheelSupportBar_01 1
+    100350: wheelSupportBar_02
+    100352: wheelSupportBar_02 1
+    400000: backBar_Bracket01
+    400002: backBar_Bracket02
+    400004: backBar_Pipe
+    400006: backingPanelBot
+    400008: backingPanelTop
+    400010: bumperRivet01
+    400012: bumperRivet02
+    400014: bumperRivet_rear01
+    400016: bumperRivet_rear02
+    400018: //RootNode
+    400020: frontBar_Bracket01
+    400022: frontBar_Bracket02
+    400024: frontBar_grillBox01
+    400026: frontBar_grillBox02
+    400028: frontBar_grillMain
+    400030: frontBar_grillSupport01
+    400032: frontBar_grillSupport02
+    400034: frontBar_Short
+    400036: frontBumper
+    400038: harnessSidebar
+    400040: harnessSidebarSupportMid
+    400042: headlight_01
+    400044: headlight_02
+    400046: midBraceBar
+    400048: mineCar_Base
+    400050: mineCar_Base_GRP
+    400052: mineCar_facePlate
+    400054: mineCar_Magnet_Back_01
+    400056: mineCar_Magnet_Front_01
+    400058: pCylinder2
+    400060: rearBumper
+    400062: restraintBar_01
+    400064: restraintBar_02
+    400066: restraintBar_03
+    400068: restraintBar_04
+    400070: restraintBarBase_01
+    400072: restraintBarBase_02
+    400074: restraintBarBase_03
+    400076: restraintBarBase_04
+    400078: restraintHandle_01
+    400080: restraintHandle_02
+    400082: restraintHandle_03
+    400084: restraintHandle_04
+    400086: restraintMain_01
+    400088: restraintMain_02
+    400090: rivet_01
+    400092: rivet_010
+    400094: rivet_011
+    400096: rivet_012
+    400098: rivet_013
+    400100: rivet_014
+    400102: rivet_015
+    400104: rivet_016
+    400106: rivet_017
+    400108: rivet_018
+    400110: rivet_019
+    400112: rivet_02
+    400114: rivet_020
+    400116: rivet_021
+    400118: rivet_022
+    400120: rivet_023
+    400122: rivet_024
+    400124: rivet_025
+    400126: rivet_026
+    400128: rivet_027
+    400130: rivet_028
+    400132: rivet_029
+    400134: rivet_03
+    400136: rivet_030
+    400138: rivet_031
+    400140: rivet_032
+    400142: rivet_033
+    400144: rivet_034
+    400146: rivet_035
+    400148: rivet_036
+    400150: rivet_037
+    400152: rivet_038
+    400154: rivet_039
+    400156: rivet_04
+    400158: rivet_040
+    400160: rivet_041
+    400162: rivet_042
+    400164: rivet_043
+    400166: rivet_044
+    400168: rivet_045
+    400170: rivet_046
+    400172: rivet_047
+    400174: rivet_048
+    400176: rivet_049
+    400178: rivet_05
+    400180: rivet_050
+    400182: rivet_051
+    400184: rivet_052
+    400186: rivet_053
+    400188: rivet_054
+    400190: rivet_055
+    400192: rivet_056
+    400194: rivet_057
+    400196: rivet_058
+    400198: rivet_059
+    400200: rivet_06
+    400202: rivet_060
+    400204: rivet_061
+    400206: rivet_062
+    400208: rivet_063
+    400210: rivet_064
+    400212: rivet_065
+    400214: rivet_066
+    400216: rivet_067
+    400218: rivet_068
+    400220: rivet_069
+    400222: rivet_07
+    400224: rivet_070
+    400226: rivet_071
+    400228: rivet_072
+    400230: rivet_073
+    400232: rivet_074
+    400234: rivet_075
+    400236: rivet_076
+    400238: rivet_08
+    400240: rivet_09
+    400242: seat_01
+    400244: seat_02
+    400246: seatRearLock_01
+    400248: seatRearLock_02
+    400250: sidebarSupportEnd_01
+    400252: sidebarSupportEnd_02
+    400254: sidebarSupportEndCap_01
+    400256: sidebarSupportEndCap_02
+    400258: wheelAssembly_GRP_FL
+    400260: wheelAssembly_GRP_FL 1
+    400262: wheelAssembly_GRP_FR
+    400264: wheelAssembly_GRP_FR 1
+    400266: wheelAssembly_GRP_FRONT
+    400268: wheelAssembly_GRP_FRONT1
+    400270: wheelAssemblyBase_01
+    400272: wheelAssemblyBase_01 1
+    400274: wheelBig_01
+    400276: wheelBig_01 1
+    400278: wheelBig_01 2
+    400280: wheelBig_01 3
+    400282: wheelBig_02
+    400284: wheelBig_02 1
+    400286: wheelBig_02 2
+    400288: wheelBig_02 3
+    400290: wheelConnector_01
+    400292: wheelConnector_01 1
+    400294: wheelConnector_01 2
+    400296: wheelConnector_01 3
+    400298: wheelConnector_02
+    400300: wheelConnector_02 1
+    400302: wheelConnector_02 2
+    400304: wheelConnector_02 3
+    400306: wheelCover_01
+    400308: wheelCover_01 1
+    400310: wheelCover_01 2
+    400312: wheelCover_01 3
+    400314: wheelSmallBot_01
+    400316: wheelSmallBot_01 1
+    400318: wheelSmallBot_01 2
+    400320: wheelSmallBot_01 3
+    400322: wheelSmallBot_02
+    400324: wheelSmallBot_02 1
+    400326: wheelSmallBot_02 2
+    400328: wheelSmallBot_02 3
+    400330: wheelSmallMid_01
+    400332: wheelSmallMid_01 1
+    400334: wheelSmallMid_01 2
+    400336: wheelSmallMid_01 3
+    400338: wheelSmallMid_02
+    400340: wheelSmallMid_02 1
+    400342: wheelSmallMid_02 2
+    400344: wheelSmallMid_02 3
+    400346: wheelSupportBar_01
+    400348: wheelSupportBar_01 1
+    400350: wheelSupportBar_02
+    400352: wheelSupportBar_02 1
+    2300000: backBar_Bracket01
+    2300002: backBar_Bracket02
+    2300004: backBar_Pipe
+    2300006: backingPanelBot
+    2300008: backingPanelTop
+    2300010: bumperRivet01
+    2300012: bumperRivet02
+    2300014: bumperRivet_rear01
+    2300016: bumperRivet_rear02
+    2300018: frontBar_Bracket01
+    2300020: frontBar_Bracket02
+    2300022: frontBar_grillBox01
+    2300024: frontBar_grillBox02
+    2300026: frontBar_grillMain
+    2300028: frontBar_grillSupport01
+    2300030: frontBar_grillSupport02
+    2300032: frontBar_Short
+    2300034: frontBumper
+    2300036: harnessSidebar
+    2300038: harnessSidebarSupportMid
+    2300040: headlight_01
+    2300042: headlight_02
+    2300044: midBraceBar
+    2300046: mineCar_Base
+    2300048: mineCar_facePlate
+    2300050: mineCar_Magnet_Back_01
+    2300052: mineCar_Magnet_Front_01
+    2300054: pCylinder2
+    2300056: rearBumper
+    2300058: restraintBar_01
+    2300060: restraintBar_02
+    2300062: restraintBar_03
+    2300064: restraintBar_04
+    2300066: restraintBarBase_01
+    2300068: restraintBarBase_02
+    2300070: restraintBarBase_03
+    2300072: restraintBarBase_04
+    2300074: restraintHandle_01
+    2300076: restraintHandle_02
+    2300078: restraintHandle_03
+    2300080: restraintHandle_04
+    2300082: restraintMain_01
+    2300084: restraintMain_02
+    2300086: rivet_01
+    2300088: rivet_010
+    2300090: rivet_011
+    2300092: rivet_012
+    2300094: rivet_013
+    2300096: rivet_014
+    2300098: rivet_015
+    2300100: rivet_016
+    2300102: rivet_017
+    2300104: rivet_018
+    2300106: rivet_019
+    2300108: rivet_02
+    2300110: rivet_020
+    2300112: rivet_021
+    2300114: rivet_022
+    2300116: rivet_023
+    2300118: rivet_024
+    2300120: rivet_025
+    2300122: rivet_026
+    2300124: rivet_027
+    2300126: rivet_028
+    2300128: rivet_029
+    2300130: rivet_03
+    2300132: rivet_030
+    2300134: rivet_031
+    2300136: rivet_032
+    2300138: rivet_033
+    2300140: rivet_034
+    2300142: rivet_035
+    2300144: rivet_036
+    2300146: rivet_037
+    2300148: rivet_038
+    2300150: rivet_039
+    2300152: rivet_04
+    2300154: rivet_040
+    2300156: rivet_041
+    2300158: rivet_042
+    2300160: rivet_043
+    2300162: rivet_044
+    2300164: rivet_045
+    2300166: rivet_046
+    2300168: rivet_047
+    2300170: rivet_048
+    2300172: rivet_049
+    2300174: rivet_05
+    2300176: rivet_050
+    2300178: rivet_051
+    2300180: rivet_052
+    2300182: rivet_053
+    2300184: rivet_054
+    2300186: rivet_055
+    2300188: rivet_056
+    2300190: rivet_057
+    2300192: rivet_058
+    2300194: rivet_059
+    2300196: rivet_06
+    2300198: rivet_060
+    2300200: rivet_061
+    2300202: rivet_062
+    2300204: rivet_063
+    2300206: rivet_064
+    2300208: rivet_065
+    2300210: rivet_066
+    2300212: rivet_067
+    2300214: rivet_068
+    2300216: rivet_069
+    2300218: rivet_07
+    2300220: rivet_070
+    2300222: rivet_071
+    2300224: rivet_072
+    2300226: rivet_073
+    2300228: rivet_074
+    2300230: rivet_075
+    2300232: rivet_076
+    2300234: rivet_08
+    2300236: rivet_09
+    2300238: seat_01
+    2300240: seat_02
+    2300242: seatRearLock_01
+    2300244: seatRearLock_02
+    2300246: sidebarSupportEnd_01
+    2300248: sidebarSupportEnd_02
+    2300250: sidebarSupportEndCap_01
+    2300252: sidebarSupportEndCap_02
+    2300254: wheelAssemblyBase_01
+    2300256: wheelAssemblyBase_01 1
+    2300258: wheelBig_01
+    2300260: wheelBig_01 1
+    2300262: wheelBig_01 2
+    2300264: wheelBig_01 3
+    2300266: wheelBig_02
+    2300268: wheelBig_02 1
+    2300270: wheelBig_02 2
+    2300272: wheelBig_02 3
+    2300274: wheelConnector_01
+    2300276: wheelConnector_01 1
+    2300278: wheelConnector_01 2
+    2300280: wheelConnector_01 3
+    2300282: wheelConnector_02
+    2300284: wheelConnector_02 1
+    2300286: wheelConnector_02 2
+    2300288: wheelConnector_02 3
+    2300290: wheelCover_01
+    2300292: wheelCover_01 1
+    2300294: wheelCover_01 2
+    2300296: wheelCover_01 3
+    2300298: wheelSmallBot_01
+    2300300: wheelSmallBot_01 1
+    2300302: wheelSmallBot_01 2
+    2300304: wheelSmallBot_01 3
+    2300306: wheelSmallBot_02
+    2300308: wheelSmallBot_02 1
+    2300310: wheelSmallBot_02 2
+    2300312: wheelSmallBot_02 3
+    2300314: wheelSmallMid_01
+    2300316: wheelSmallMid_01 1
+    2300318: wheelSmallMid_01 2
+    2300320: wheelSmallMid_01 3
+    2300322: wheelSmallMid_02
+    2300324: wheelSmallMid_02 1
+    2300326: wheelSmallMid_02 2
+    2300328: wheelSmallMid_02 3
+    2300330: wheelSupportBar_01
+    2300332: wheelSupportBar_01 1
+    2300334: wheelSupportBar_02
+    2300336: wheelSupportBar_02 1
+    3300000: backBar_Bracket01
+    3300002: backBar_Bracket02
+    3300004: backBar_Pipe
+    3300006: backingPanelBot
+    3300008: backingPanelTop
+    3300010: bumperRivet01
+    3300012: bumperRivet02
+    3300014: bumperRivet_rear01
+    3300016: bumperRivet_rear02
+    3300018: frontBar_Bracket01
+    3300020: frontBar_Bracket02
+    3300022: frontBar_grillBox01
+    3300024: frontBar_grillBox02
+    3300026: frontBar_grillMain
+    3300028: frontBar_grillSupport01
+    3300030: frontBar_grillSupport02
+    3300032: frontBar_Short
+    3300034: frontBumper
+    3300036: harnessSidebar
+    3300038: harnessSidebarSupportMid
+    3300040: headlight_01
+    3300042: headlight_02
+    3300044: midBraceBar
+    3300046: mineCar_Base
+    3300048: mineCar_facePlate
+    3300050: mineCar_Magnet_Back_01
+    3300052: mineCar_Magnet_Front_01
+    3300054: pCylinder2
+    3300056: rearBumper
+    3300058: restraintBar_01
+    3300060: restraintBar_02
+    3300062: restraintBar_03
+    3300064: restraintBar_04
+    3300066: restraintBarBase_01
+    3300068: restraintBarBase_02
+    3300070: restraintBarBase_03
+    3300072: restraintBarBase_04
+    3300074: restraintHandle_01
+    3300076: restraintHandle_02
+    3300078: restraintHandle_03
+    3300080: restraintHandle_04
+    3300082: restraintMain_01
+    3300084: restraintMain_02
+    3300086: rivet_01
+    3300088: rivet_010
+    3300090: rivet_011
+    3300092: rivet_012
+    3300094: rivet_013
+    3300096: rivet_014
+    3300098: rivet_015
+    3300100: rivet_016
+    3300102: rivet_017
+    3300104: rivet_018
+    3300106: rivet_019
+    3300108: rivet_02
+    3300110: rivet_020
+    3300112: rivet_021
+    3300114: rivet_022
+    3300116: rivet_023
+    3300118: rivet_024
+    3300120: rivet_025
+    3300122: rivet_026
+    3300124: rivet_027
+    3300126: rivet_028
+    3300128: rivet_029
+    3300130: rivet_03
+    3300132: rivet_030
+    3300134: rivet_031
+    3300136: rivet_032
+    3300138: rivet_033
+    3300140: rivet_034
+    3300142: rivet_035
+    3300144: rivet_036
+    3300146: rivet_037
+    3300148: rivet_038
+    3300150: rivet_039
+    3300152: rivet_04
+    3300154: rivet_040
+    3300156: rivet_041
+    3300158: rivet_042
+    3300160: rivet_043
+    3300162: rivet_044
+    3300164: rivet_045
+    3300166: rivet_046
+    3300168: rivet_047
+    3300170: rivet_048
+    3300172: rivet_049
+    3300174: rivet_05
+    3300176: rivet_050
+    3300178: rivet_051
+    3300180: rivet_052
+    3300182: rivet_053
+    3300184: rivet_054
+    3300186: rivet_055
+    3300188: rivet_056
+    3300190: rivet_057
+    3300192: rivet_058
+    3300194: rivet_059
+    3300196: rivet_06
+    3300198: rivet_060
+    3300200: rivet_061
+    3300202: rivet_062
+    3300204: rivet_063
+    3300206: rivet_064
+    3300208: rivet_065
+    3300210: rivet_066
+    3300212: rivet_067
+    3300214: rivet_068
+    3300216: rivet_069
+    3300218: rivet_07
+    3300220: rivet_070
+    3300222: rivet_071
+    3300224: rivet_072
+    3300226: rivet_073
+    3300228: rivet_074
+    3300230: rivet_075
+    3300232: rivet_076
+    3300234: rivet_08
+    3300236: rivet_09
+    3300238: seat_01
+    3300240: seat_02
+    3300242: seatRearLock_01
+    3300244: seatRearLock_02
+    3300246: sidebarSupportEnd_01
+    3300248: sidebarSupportEnd_02
+    3300250: sidebarSupportEndCap_01
+    3300252: sidebarSupportEndCap_02
+    3300254: wheelAssemblyBase_01
+    3300256: wheelAssemblyBase_01 1
+    3300258: wheelBig_01
+    3300260: wheelBig_01 1
+    3300262: wheelBig_01 2
+    3300264: wheelBig_01 3
+    3300266: wheelBig_02
+    3300268: wheelBig_02 1
+    3300270: wheelBig_02 2
+    3300272: wheelBig_02 3
+    3300274: wheelConnector_01
+    3300276: wheelConnector_01 1
+    3300278: wheelConnector_01 2
+    3300280: wheelConnector_01 3
+    3300282: wheelConnector_02
+    3300284: wheelConnector_02 1
+    3300286: wheelConnector_02 2
+    3300288: wheelConnector_02 3
+    3300290: wheelCover_01
+    3300292: wheelCover_01 1
+    3300294: wheelCover_01 2
+    3300296: wheelCover_01 3
+    3300298: wheelSmallBot_01
+    3300300: wheelSmallBot_01 1
+    3300302: wheelSmallBot_01 2
+    3300304: wheelSmallBot_01 3
+    3300306: wheelSmallBot_02
+    3300308: wheelSmallBot_02 1
+    3300310: wheelSmallBot_02 2
+    3300312: wheelSmallBot_02 3
+    3300314: wheelSmallMid_01
+    3300316: wheelSmallMid_01 1
+    3300318: wheelSmallMid_01 2
+    3300320: wheelSmallMid_01 3
+    3300322: wheelSmallMid_02
+    3300324: wheelSmallMid_02 1
+    3300326: wheelSmallMid_02 2
+    3300328: wheelSmallMid_02 3
+    3300330: wheelSupportBar_01
+    3300332: wheelSupportBar_01 1
+    3300334: wheelSupportBar_02
+    3300336: wheelSupportBar_02 1
+    4300000: mineCar_Base
+    4300002: mineCar_facePlate
+    4300004: headlight_01
+    4300006: frontBar_Short
+    4300008: frontBar_grillMain
+    4300010: frontBar_grillBox01
+    4300012: frontBar_grillSupport01
+    4300014: frontBar_grillSupport02
+    4300016: frontBumper
+    4300018: bumperRivet01
+    4300020: frontBar_Bracket01
+    4300022: backBar_Bracket01
+    4300024: bumperRivet_rear01
+    4300026: rearBumper
+    4300028: backBar_Pipe
+    4300030: headlight_02
+    4300032: rivet_036
+    4300034: rivet_035
+    4300036: rivet_034
+    4300038: rivet_033
+    4300040: rivet_032
+    4300042: rivet_031
+    4300044: rivet_030
+    4300046: rivet_029
+    4300048: rivet_028
+    4300050: rivet_027
+    4300052: rivet_026
+    4300054: rivet_025
+    4300056: rivet_024
+    4300058: rivet_023
+    4300060: rivet_022
+    4300062: rivet_021
+    4300064: rivet_020
+    4300066: rivet_019
+    4300068: rivet_018
+    4300070: rivet_017
+    4300072: rivet_016
+    4300074: rivet_015
+    4300076: rivet_014
+    4300078: rivet_013
+    4300080: rivet_012
+    4300082: rivet_011
+    4300084: rivet_010
+    4300086: rivet_09
+    4300088: rivet_08
+    4300090: rivet_07
+    4300092: rivet_06
+    4300094: rivet_05
+    4300096: rivet_04
+    4300098: rivet_03
+    4300100: rivet_02
+    4300102: rivet_01
+    4300104: rivet_037
+    4300106: rivet_038
+    4300108: rivet_039
+    4300110: rivet_040
+    4300112: frontBar_Bracket02
+    4300114: frontBar_grillBox02
+    4300116: bumperRivet02
+    4300118: bumperRivet_rear02
+    4300120: backBar_Bracket02
+    4300122: rivet_041
+    4300124: rivet_042
+    4300126: rivet_043
+    4300128: rivet_044
+    4300130: rivet_045
+    4300132: rivet_046
+    4300134: rivet_047
+    4300136: rivet_048
+    4300138: rivet_049
+    4300140: rivet_050
+    4300142: rivet_051
+    4300144: rivet_052
+    4300146: rivet_053
+    4300148: rivet_054
+    4300150: rivet_055
+    4300152: rivet_056
+    4300154: rivet_057
+    4300156: rivet_058
+    4300158: rivet_059
+    4300160: rivet_060
+    4300162: rivet_061
+    4300164: rivet_062
+    4300166: rivet_063
+    4300168: rivet_064
+    4300170: rivet_065
+    4300172: rivet_066
+    4300174: rivet_067
+    4300176: rivet_068
+    4300178: rivet_069
+    4300180: rivet_070
+    4300182: rivet_071
+    4300184: rivet_072
+    4300186: rivet_073
+    4300188: rivet_074
+    4300190: rivet_075
+    4300192: rivet_076
+    4300194: backingPanelBot
+    4300196: backingPanelTop
+    4300198: seat_01
+    4300200: midBraceBar
+    4300202: pCylinder2
+    4300204: sidebarSupportEnd_01
+    4300206: harnessSidebar
+    4300208: harnessSidebarSupportMid
+    4300210: sidebarSupportEndCap_01
+    4300212: seatRearLock_01
+    4300214: sidebarSupportEnd_02
+    4300216: sidebarSupportEndCap_02
+    4300218: seatRearLock_02
+    4300220: seat_02
+    4300222: restraintBarBase_01
+    4300224: restraintBar_01
+    4300226: restraintMain_01
+    4300228: restraintHandle_01
+    4300230: restraintHandle_02
+    4300232: restraintBarBase_02
+    4300234: restraintBar_02
+    4300236: restraintBarBase_03
+    4300238: restraintBar_03
+    4300240: restraintMain_02
+    4300242: restraintHandle_03
+    4300244: restraintHandle_04
+    4300246: restraintBarBase_04
+    4300248: restraintBar_04
+    4300250: wheelSmallBot_01
+    4300252: wheelConnector_01
+    4300254: wheelSmallMid_01
+    4300256: wheelBig_01
+    4300258: wheelCover_01
+    4300260: wheelBig_02
+    4300262: wheelConnector_02
+    4300264: wheelSmallMid_02
+    4300266: wheelSmallBot_02
+    4300268: wheelSmallBot_01
+    4300270: wheelConnector_01
+    4300272: wheelSmallMid_01
+    4300274: wheelBig_01
+    4300276: wheelCover_01
+    4300278: wheelBig_02
+    4300280: wheelConnector_02
+    4300282: wheelSmallMid_02
+    4300284: wheelSmallBot_02
+    4300286: wheelSupportBar_01
+    4300288: wheelSupportBar_02
+    4300290: wheelAssemblyBase_01
+    4300292: wheelSmallBot_01
+    4300294: wheelConnector_01
+    4300296: wheelSmallMid_01
+    4300298: wheelBig_01
+    4300300: wheelCover_01
+    4300302: wheelBig_02
+    4300304: wheelConnector_02
+    4300306: wheelSmallMid_02
+    4300308: wheelSmallBot_02
+    4300310: wheelSmallBot_01
+    4300312: wheelConnector_01
+    4300314: wheelSmallMid_01
+    4300316: wheelBig_01
+    4300318: wheelCover_01
+    4300320: wheelBig_02
+    4300322: wheelConnector_02
+    4300324: wheelSmallMid_02
+    4300326: wheelSmallBot_02
+    4300328: wheelSupportBar_01
+    4300330: wheelSupportBar_02
+    4300332: wheelAssemblyBase_01
+    4300334: mineCar_Magnet_Back_01
+    4300336: mineCar_Magnet_Front_01
+    7400000: coasterTrackComplete_GEO-SOLO2
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

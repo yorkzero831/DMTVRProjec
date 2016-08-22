@@ -1,5 +1,4 @@
 metadata/
-*.meta
 Temp/
 VRProject/Assets/Plugins/iOS/libgvrunity.a
 ShaderCache/
