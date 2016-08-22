@@ -5,11 +5,11 @@ namespace VRProjectSctipt
     public class AnimationManager : MonoBehaviour
     {
 
-        public static AnimationManager animationManager;
+        public static AnimationManager animationManager;//静态成员，到哪都能访问
 
         private Animator myAnimator;
 
-        void Awake()
+        void Awake()//比start先
         {
             animationManager = this;
             myAnimator = gameObject.GetComponent<Animator>();
